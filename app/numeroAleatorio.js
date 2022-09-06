@@ -9,7 +9,5 @@ function getNumeroAleatorio() {
   return parseInt(Math.random() * maiorValor + 1);
 }
 
-console.log(numeroSecreto);
-
-elementoMenorValor.innerHTML = menorValor
-elementoMaiorValor.innerHTML = maiorValor
+elementoMenorValor.innerHTML = menorValor;
+elementoMaiorValor.innerHTML = maiorValor;

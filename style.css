@@ -18,9 +18,20 @@ body {
   text-align: center;
   margin: 0;
 }
-
+.jogo-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
 h1 {
   font-size: 5em;
+}
+h2 {
+  font-size: 50px;
+  margin: 40px 0 0 0;
 }
 h3 {
   font-size: 2em;

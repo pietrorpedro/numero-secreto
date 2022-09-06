@@ -1,5 +1,6 @@
 const elementoChute = document.getElementById("chute");
 
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API -- API DOC LINK
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
 // Instancia a classe do reconhecimento de voz
@@ -21,3 +22,6 @@ function exibeChute(chute) {
         <span class="box">${chute}</span>
     `;
 }
+
+//Faz o microfone sempre ficar ativo
+recognition.addEventListener("end", () => recognition.start());
