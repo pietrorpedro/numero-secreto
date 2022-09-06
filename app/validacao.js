@@ -8,4 +8,5 @@ function verificarChute(chute) {
     return;
   }
   exibeChute(chute);
+  
 }
