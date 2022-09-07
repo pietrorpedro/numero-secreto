@@ -13,7 +13,13 @@ function verificarChute(chute) {
     document.body.innerHTML = `
     <h2>Você acertou o número secreto!</h2>
     <h3>Parabens! O número secreto era ${numeroSecreto}</h3>
+    <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
     `;
+
+    const btnJogarNvm = document.getElementById("jogar-novamente");
+    btnJogarNvm.addEventListener("click", () => {
+      window.location.reload();
+    });
   }
   //Caso o chute seja maior que o número secreto
   else if (numero > numeroSecreto) {

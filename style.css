@@ -7,6 +7,7 @@
   --primary-color: #e3fdfd;
 }
 body {
+  padding:10px;
   background-color: var(--bg-color);
   color: var(--primary-color);
   font-family: var(--font-family);
@@ -26,15 +27,16 @@ body {
   text-align: center;
   min-height: 100vh;
 }
+
 h1 {
-  font-size: 5em;
+  font-size: 84px;
 }
 h2 {
   font-size: 50px;
   margin: 40px 0 0 0;
 }
 h3 {
-  font-size: 2em;
+  font-size: 34px;
   margin: 20px 0 0 0;
 }
 .mensagem {
@@ -47,4 +49,18 @@ h3 {
   padding: 10px;
   margin: 20px;
   font-size: 4em;
+}
+
+.btn-jogar {
+  padding:10px 15px;
+  border: 0;
+  background-color: var(--primary-color);
+  border-radius:5px;
+  margin-top:20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-jogar:hover {
+  border:1px solid black;
+
 }
